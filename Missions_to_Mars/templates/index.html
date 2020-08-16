@@ -63,11 +63,15 @@
 {% for dict in mars_hemispheres %}
     <div class="col-md-6 text-center">
       <div class="card text-center" style="width: 32rem;">
-        <img class="card-img-top text-center" id="scale_id" src="../resources/cerberus.png", "../resources/schiaparelli.png", "../resources/syrtis.png", "../resources/valles.png">
-          <div class="card-body text-center">
-            <h4 class="card-title text-center">{{ dict.title }}</h4>
+        <img class="card-img-top text-center" id="scale_id" src="../resources/cerberus.png">
+            <img class="card-img-top text-center" id="scale_id" src="../resources/schiaparelli.png">
+              <img class="card-img-top text-center" id="scale_id" src="../resources/syrtis.png">
+                <img class="card-img-top text-center" id="scale_id" src="../resources/valles.png">
+                <div> class="card-body text-center"</div>
+            </div>
           </div>
         </div>
+      </div>
     </div>
 {% endfor %}
 </div>
